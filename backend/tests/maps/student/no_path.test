@@ -1,0 +1,11 @@
+INPUT
+map data/maps/sequential.sqlite3
+route 42 -72 41.8 -71.3
+map data/maps/threePaths.sqlite3
+route 41.82 71.45 41.82 71.4
+OUTPUT
+map set to data/maps/sequential.sqlite3
+/n/5 -/- /n/0
+map set to data/maps/threePaths.sqlite3
+/n/8 -/- /n/0
+END

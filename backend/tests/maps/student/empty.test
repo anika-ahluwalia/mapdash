@@ -1,0 +1,11 @@
+INPUT
+map data/maps/empty.sqlite3
+nearest 41.8203 -71.4
+route 41.8 -71.3 42 -72
+route "as" "ada" "as" "asd"
+OUTPUT
+map set to data/maps/empty.sqlite3
+ERROR: No nearest neighbor. Ensure that database is not empty.
+ERROR: No traversable nodes in database.
+ERROR: Intersections not found.
+END

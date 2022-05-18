@@ -1,0 +1,16 @@
+INPUT
+map data/maps/sequential.sqlite3
+route "Yubaba St" "Chihiro Ave" "Radish Spirit Blvd" "Sootball Ln"
+route "Yubaba St" "Chihiro Ave" "Radish Spirit Blvd" "Kamaji Pl"
+map data/maps/threePaths.sqlite3
+route "Brooke St" "Steeple St" "Charlesfield St" "John St"
+OUTPUT
+map set to data/maps/sequential.sqlite3
+/n/1 -> /n/2 : /w/1
+/n/2 -> /n/3 : /w/2
+ERROR: Intersections not found.
+map set to data/maps/threePaths.sqlite3
+/n/5 -> /n/6 : /w/6
+/n/6 -> /n/7 : /w/7
+/n/7 -> /n/8 : /w/8
+END

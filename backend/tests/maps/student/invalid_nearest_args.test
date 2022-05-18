@@ -1,0 +1,15 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+nearest not_a_number
+nearest 1
+nearest 1 1 1
+nearest
+nearest a b
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR: nearest command arguments must be of form <latitude> <longitude>.
+ERROR: nearest command arguments must be of form <latitude> <longitude>.
+ERROR: nearest command arguments must be of form <latitude> <longitude>.
+ERROR: No command arguments provided.
+ERROR: Check that all latitude and longitude arguments are numeric values or all street names are in quotes.
+END

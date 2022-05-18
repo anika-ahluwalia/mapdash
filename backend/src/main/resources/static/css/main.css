@@ -1,0 +1,80 @@
+
+.main-content {
+    width: 80%;
+    margin: auto;
+}
+
+.content-box {
+    border: solid medium black;
+    margin: 2em auto 2em;
+    border-radius: 8px;
+    width: 90%;
+    padding: 1em;
+    color: white;
+}
+
+hr {
+    background-color: white;
+    border: none;
+}
+
+td, th {
+    padding-left: 15px;
+}
+
+
+
+#quote {
+    width: 80%;
+    margin: auto;
+    max-width: 400px;
+    color: white;
+    font-family: "Bradley Hand ITC", cursive;
+}
+
+#k, #r, #star-name {
+    width: 100px;
+}
+
+input[id="neighbors"] + label > input {
+    visibility: hidden;
+}
+
+input[id="neighbors"]:checked + label > input {
+    visibility: visible;
+}
+
+input[id="radius"] + label > input {
+    visibility: hidden;
+}
+
+input[id="radius"]:checked + label > input {
+    visibility: visible;
+}
+
+input[id="name"] + label > input {
+    visibility: hidden;
+}
+
+input[id="name"]:checked + label > input {
+    visibility: visible;
+}
+
+input[id="coords"] + label > input {
+    visibility: hidden;
+}
+
+input[id="coords"]:checked + label > input {
+    visibility: visible;
+}
+
+.coord {
+    width: 50px;
+}
+
+body {
+    background-image: url("../images/4965.jpg");
+    background-color: #1e1330;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

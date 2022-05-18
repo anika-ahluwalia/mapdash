@@ -1,0 +1,9 @@
+INPUT
+map data/maps/onlyOneTraversable.sqlite3
+route 0 -71.4003 50 -71
+nearest 0 0
+OUTPUT
+map set to data/maps/onlyOneTraversable.sqlite3
+/n/4 -> /n/5 : /w/4
+/n/4
+END

@@ -1,0 +1,19 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+route not_a_number
+route 1 2 3
+route 1
+route "" "street" "ave" "pl"
+route "not here" "no intersection" "bla" "bla"
+route
+route "test" 231 "test" 41
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR: route command arguments must be of form <lat1> <lon1> <lat2> <lon2> or "Street 1" "Cross-street 1" "Street 2" "Cross-street 2".
+ERROR: route command arguments must be of form <lat1> <lon1> <lat2> <lon2> or "Street 1" "Cross-street 1" "Street 2" "Cross-street 2".
+ERROR: route command arguments must be of form <lat1> <lon1> <lat2> <lon2> or "Street 1" "Cross-street 1" "Street 2" "Cross-street 2".
+ERROR: Names cannot be empty.
+ERROR: Intersections not found.
+ERROR: No command arguments provided.
+ERROR: Check that all latitude and longitude arguments are numeric values or all street names are in quotes.
+END

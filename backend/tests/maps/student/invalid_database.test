@@ -1,0 +1,5 @@
+INPUT
+map invalidDatabasePath
+OUTPUT
+ERROR: Database file does not exist.
+END
